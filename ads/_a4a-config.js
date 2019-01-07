@@ -22,9 +22,9 @@ import {
 } from
   '../extensions/amp-ad-network-cloudflare-impl/0.1/cloudflare-a4a-config';
 import {
-    dianomiIsA4AEnabled,
-  } from
-    '../extensions/amp-ad-network-dianomi-impl/0.1/dianomi-a4a-config';
+  dianomiIsA4AEnabled,
+} from
+  '../extensions/amp-ad-network-dianomi-impl/0.1/dianomi-a4a-config';
 import {
   gmosspIsA4AEnabled,
 } from

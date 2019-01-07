@@ -55,6 +55,7 @@ exports.extensionBundles = [
   {name: 'amp-ad-network-fake-impl', version: '0.1', type: TYPES.AD},
   {name: 'amp-ad-network-triplelift-impl', version: '0.1', type: TYPES.AD},
   {name: 'amp-ad-network-cloudflare-impl', version: '0.1', type: TYPES.AD},
+  {name: 'amp-ad-network-dianomi-impl', version: '0.1', type: TYPES.AD},
   {name: 'amp-ad-network-gmossp-impl', version: '0.1', type: TYPES.AD},
   {name: 'amp-ad-exit', version: '0.1', type: TYPES.AD},
   {name: 'amp-addthis', version: '0.1', type: TYPES.MISC},

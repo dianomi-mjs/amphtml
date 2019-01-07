@@ -193,6 +193,8 @@ exports.rules = [
       'ads/_a4a-config.js->' +
           'extensions/amp-ad-network-cloudflare-impl/0.1/cloudflare-a4a-config.js',
       'ads/_a4a-config.js->' +
+          'extensions/amp-ad-network-dianomi-impl/0.1/dianomi-a4a-config.js',
+      'ads/_a4a-config.js->' +
           'extensions/amp-ad-network-gmossp-impl/0.1/gmossp-a4a-config.js',
     ],
   },

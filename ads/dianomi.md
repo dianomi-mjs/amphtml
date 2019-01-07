@@ -19,9 +19,9 @@ limitations under the License.
 ## Example
 
 ```html
-<amp-ad width="320" height="300"
-  data-cf-network="dianomi"
-  type="cloudflare"
+<amp-ad 
+  data-smartad-id="1"
+  type="dianomi"
 </amp-ad>
 ```
 
@@ -31,13 +31,8 @@ For configuration semantics and to learn more about how we can help you deliver 
 
 ### Supported parameters
 
-- `data-id`
-- `width`
-- `height`
-- `data-cf-a4a`
-- `src`
+- `data-smartad-id`
 
 ### Required parameters
 
-- `data-cf-network`
-- `type`
+- `data-smartad-id`

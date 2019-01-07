@@ -40,9 +40,10 @@ export class AmpAdNetworkDianomiImpl extends AmpA4A {
 
   /** @override */
   getAdUrl() {
-    const smartadId = this.element.getAttribute("data-smartad-id");
-    const base = "https://www.dianomi.com/smartads.pl?format=a4a&id=";
+    const smartadId = this.element.getAttribute('data-smartad-id');
+    const base = 'https://www.dianomi.com/smartads.pl?format=a4a&id=';
     return base + smartadId;
+  }
 }
 
 
