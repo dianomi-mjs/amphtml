@@ -78,7 +78,7 @@ describes.realWin('amp-ad-network-dianomi-impl', {
     it('should NOT be valid (impl tag name)', () => {
       el = doc.createElement('amp-ad-network-dianomi-impl');
       el.setAttribute('type', 'dianomi');
-      cloudflareImpl = new AmpAdNetworkDianomiImpl(el);
+      dianomiImpl = new AmpAdNetworkDianomiImpl(el);
       expect(dianomiImpl.isValidElement()).to.be.false;
     });
   });
