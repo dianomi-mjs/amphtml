@@ -21,7 +21,7 @@
  * @param {boolean} useRemoteHtml
  * @return {boolean}
  */
-export function cloudflareIsA4AEnabled(win, element, useRemoteHtml) {
+export function dianomiIsA4AEnabled(win, element, useRemoteHtml) {
   // We assume fast fetch for all content, but this will gracefully degrade,
   // when non-a4a content is delivered
   return !useRemoteHtml;

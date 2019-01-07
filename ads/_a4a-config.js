@@ -22,6 +22,10 @@ import {
 } from
   '../extensions/amp-ad-network-cloudflare-impl/0.1/cloudflare-a4a-config';
 import {
+    dianomiIsA4AEnabled,
+  } from
+    '../extensions/amp-ad-network-dianomi-impl/0.1/dianomi-a4a-config';
+import {
   gmosspIsA4AEnabled,
 } from
   '../extensions/amp-ad-network-gmossp-impl/0.1/gmossp-a4a-config';
@@ -59,6 +63,7 @@ export function getA4ARegistry() {
       'triplelift': tripleliftIsA4AEnabled,
       'cloudflare': cloudflareIsA4AEnabled,
       'gmossp': gmosspIsA4AEnabled,
+      'dianomi' : dianomiIsA4AEnabled,
       'fake': () => true,
       // TODO: Add new ad network implementation "is enabled" functions here.
       // Note: if you add a function here that requires a new "import", above,
